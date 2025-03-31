@@ -25,7 +25,7 @@ const Footer=function Footer(){
             
             {/* <!-- About --> */}
             <div className="text-right">
-                <h3 class="font-bold text-2xl">About Us</h3>
+                <h3 className="font-bold text-2xl">About Us</h3>
                 <p>Experienced Full-stack Developer. Master in MERN stack </p>
             </div>
         </div>

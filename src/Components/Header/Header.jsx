@@ -9,12 +9,13 @@ const Header=function Header(){
             
             {/* <!-- Navigation Bar --> */}
             <nav>
-                <ul class="flex space-x-6 text-lg">
+                <ul className="flex space-x-6 text-lg">
                     <li><NavLink to="/" className= {({ isActive }) => 
               isActive ? "text-yellow-400  font-bold" : "text-white"}>Home</NavLink></li>
                     <li><NavLink to="/about" className= {({ isActive }) => 
               isActive ? "text-yellow-400  font-bold" : "text-white"}>About</NavLink></li>
-                    <li><NavLink to="#" >Projects</NavLink></li>
+                    <li><NavLink to="/project" className= {({ isActive }) => 
+              isActive ? "text-yellow-400  font-bold" : "text-white"}>Projects</NavLink></li>
                     <li><NavLink to="/contact" className= {({ isActive }) => 
               isActive ? "text-yellow-400  font-bold" : "text-white"}>Contact</NavLink></li>
                 </ul>

@@ -12,7 +12,7 @@ const Contact=function Contact(){
                     {/* <!-- Name Field --> */}
                     <div className="mb-4">
                         <label className="block text-lg mb-2 text-gray-800" for="name">Name</label>
-                        <input type="text" id="name" placeholder="Enter your name" class="w-full p-3 rounded-lg text-gray-800"/>
+                        <input type="text" id="name" placeholder="Enter your name" className="w-full p-3 rounded-lg text-gray-800"/>
                     </div>
 
                     {/* <!-- Email Field --> */}

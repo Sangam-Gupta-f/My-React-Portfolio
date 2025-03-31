@@ -25,7 +25,7 @@ const About=function About(){
 
             {/* <!-- Download Resume Button --> */}
             <div className="mt-10">
-                <Link to="https://drive.google.com/file/d/1ODb1lWxPIo1cS5Ha74Xp3E6oDFqPUG-Z/view" download class="bg-white text-[#1ABC9C] font-bold py-3 px-8 text-lg rounded-lg shadow-lg hover:bg-opacity-80 transition">
+                <Link to="https://drive.google.com/file/d/1ODb1lWxPIo1cS5Ha74Xp3E6oDFqPUG-Z/view" download className="bg-white text-[#1ABC9C] font-bold py-3 px-8 text-lg rounded-lg shadow-lg hover:bg-opacity-80 transition">
                     Download Resume
                 </Link>
             </div>
