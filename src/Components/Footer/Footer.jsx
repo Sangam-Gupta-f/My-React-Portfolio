@@ -3,6 +3,8 @@ import { Link, NavLink} from "react-router";
 import facebook from "../../assets/facebook.png"
 import insta from "../../assets/insta.png"
 import x from "../../assets/x.png"
+import git from "../../assets/git.png"
+import linkedin from "../../assets/linkedin.png"
 const Footer=function Footer(){
     return <>
     <footer className="bg-[#2C3E50] text-white mt-0 w-full ">
@@ -15,11 +17,17 @@ const Footer=function Footer(){
             
             {/* <!-- Social Icons --> */}
             <div className="flex justify-center space-x-4">
-               <img src={facebook} alt="fb Image" className="w-10 h-10 object-cover"/>
+                  <Link to="https://github.com/Sangam-Gupta-f">
+                     <img  src={git} alt="git Image" className="w-10 h-10 object-cover"/>
+                  </Link> 
                 {/* <!-- Facebook --> */}
-                <img src={insta} alt="insta-img" className="w-10 h-10 object-cover"/> 
+                <Link to="https://www.linkedin.com/in/sangamgupta8986/">
+                <img src={linkedin} alt="linkedin-img" className="w-10 h-10 object-cover"/> 
+                </Link>
                 {/* <!-- Instagram --> */}
+                <Link to="https://x.com/Sangamgupt81212">
                 <img src={x} alt="x-img"className="w-10 h-10 object-cover"/>
+                </Link>
                  {/* <!-- Twitter --> */}
             </div>
             

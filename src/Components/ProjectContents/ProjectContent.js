@@ -3,31 +3,49 @@ import dream from "../../assets/dream.png";
 import ngo from "../../assets/ngo.png";
 import rizz from "../../assets/rizz.png";
 import yog from "../../assets/yog.png";
+import bot from "../../assets/bot.png";
+import cv from "../../assets/cv.png";
+import js from "../../assets/JS_CV.png";
 const ProjectContent=[
+  {
+    title:"JS PORTFOLIO",
+    url:js,
+    description:"This is my personal Protfolio websitse, based on JAVASCRIPT, HTML and Bootstrap"
+  },
+  {
+    title:"REACT PORTFOLIO",
+    url:cv,
+    description:"This is my personal Protfolio websitse, based on React "
+  },
+  {
+    title:"AI CHATBOT",
+    url:bot,
+    description:"This is my personal AI ChatBot, using REACT and API"
+  },
     {
       title:"AKTUWALLAH",
       url:aktu,
       description:"This is educational website"
     },
     {
-        title:"DREAM",
+        title:"DREAMANDGREEN",
         url:dream,
-        description:"This is educational website"
+        description:"This is fund raising, non profit website"
       }, 
       {
-        title:"Rizz",
+        title:"RIZZGLAM",
         url:rizz,
         description:"This is educational website"
       }, 
       {
-        title:"YOG",
+        title:"SOCIALFOUNDATION",
         url:yog,
-        description:"This is educational website"
+        description:"This is non profit website also work on human right"
       }, 
       {
-        title:"ngo",
+        title:"NGOMONK",
         url:ngo,
-        description:"This is educational website"
+        description:"This is non profit website"
       }, 
 ];
 export default ProjectContent;
