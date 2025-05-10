@@ -6,7 +6,13 @@ import yog from "../../assets/yog.png";
 import bot from "../../assets/bot.png";
 import cv from "../../assets/cv.png";
 import js from "../../assets/JS_CV.png";
+import aq from "../../assets/aq.png";
 const ProjectContent=[
+  {
+    title:"AquaQuick",
+    url:aq,
+    description:"This is Water Delivery App. It consist Role based access functionalities. Build using MERN Stack"
+  },
   {
     title:"JS PORTFOLIO",
     url:js,

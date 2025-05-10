@@ -1,12 +1,12 @@
 import React from "react";
+import { FiNavigation } from "react-icons/fi";
 import {Link, NavLink} from "react-router";
 const Header=function Header(){
    return <>
-       <header className="bg-[#2C3E50] text-white font-bold py-10 px-20">
-        <div className="container mx-auto flex justify-between items-center">
+       <header className="bg-[#2C3E50] text-white font-bold py-3 px-6 md:py-10 md:px-20">
+        <div className="container mx-auto md:flex md:justify-between md:items-center ">
             {/* <!-- Company Name --> */}
-            <div className="text-3xl">Sangam Gupta</div>
-            
+            <div className="md:text-3xl text-center">Sangam Gupta</div>      
             {/* <!-- Navigation Bar --> */}
             <nav>
                 <ul className="flex space-x-6 text-lg">
